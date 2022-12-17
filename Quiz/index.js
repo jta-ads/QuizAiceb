@@ -1,0 +1,11 @@
+
+
+
+
+function começar(){
+    
+}
+
+function ranking(){
+
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background: #40beae;
+    font: normal 15pt arial;
+    background-image: url(imagemcorpo.png);
+    background-size: 550px;
+    background-position: -0% -470%;
+    background-repeat: no-repeat;
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+section{
+    background: white;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: white;
+    
+}
+button {
+    margin: auto;
+    position: relative;
+    font-size: 1.2em;
+    padding: 0.7em 1.4em;
+    background-color: #363031;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  }
+  
+  button::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba(33,33,33,1) 0%, rgba(33,33,33,1) 50%, rgb(184, 68, 68) 50%, rgb(241, 235, 237) 60%);
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+  
+  }
+  
+  button:hover::before {
+    width: 2em;
+    height: 2em;
+  }
+  
+  button:active {
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
