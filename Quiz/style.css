@@ -5,19 +5,20 @@ body{
     font: normal 15pt arial;
     background-image: url(imagemcorpo.png);
     background-size: 550px;
-    background-position: -0% -470%;
+    background-position: 100% 360px;
     background-repeat: no-repeat;
 }
 header{
     text-align: center;
     color: white;
     font-family: 'Righteous', cursive;
+    margin: 20px;
 }
 section{
     background: white;
     border-radius: 20px;
     width: 300px;
-    padding: 20px;
+    padding: 40px;
     margin: auto;
     box-shadow: 5px 5px 10px black;
     font-family: 'Righteous', cursive;
@@ -39,6 +40,9 @@ button {
     border-radius: 0.5em;
     color: #DEDEDE;
     box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-bottom: 12px;
+    width: 250px;
   }
   
   button::before {
@@ -63,4 +67,23 @@ button {
   button:active {
     box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
     transform: translate(0.1em, 0.1em);
+  }
+  .input {
+    background-color: transparent;
+    max-width: 190px;
+    height: 40px;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .input:focus {
+    color: rgb(8, 8, 8);
+    background-color:transparent;
+    outline-color: rgb(13, 14, 14);
+    box-shadow: -3px -3px 15px rgb(17, 17, 17);
+    transition: .1s;
+    transition-property: box-shadow;
   }
