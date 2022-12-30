@@ -4,8 +4,8 @@ body{
     background: #40beae;
     font: normal 15pt arial;
     background-image: url(imagemcorpo.png);
-    background-size: 550px;
-    background-position: 100% 360px;
+    background-size: 20em;
+    background-position: 100% 22em;
     background-repeat: no-repeat;
 }
 header{
@@ -17,13 +17,15 @@ header{
 section{
     background: white;
     border-radius: 20px;
-    width: 300px;
-    padding: 40px;
+    width: 17em;
+    padding: 3rem;
     margin: auto;
     box-shadow: 5px 5px 10px black;
     font-family: 'Righteous', cursive;
     text-align: center;
+    
 }
+
 footer{
     text-align: center;
     color: white;
@@ -33,16 +35,18 @@ button {
     margin: auto;
     position: relative;
     font-size: 1.2em;
-    padding: 0.7em 1.4em;
+    padding: 0.7em 1.5em;
     background-color: #363031;
     text-decoration: none;
     border: none;
     border-radius: 0.5em;
+    display: inline-block;
     color: #DEDEDE;
     box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
-    display: block;
     margin-bottom: 12px;
     width: 250px;
+    font-weight: bold;
+    
   }
   
   button::before {
